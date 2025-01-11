@@ -54,7 +54,7 @@ When running the program initially, we'd expect `LOG1` to output for the default
 - `ESP_LOG_DEBUG   (4)`: Debug
 - `ESP_LOG_VERBOSE (5)`: Verbose
 
-After setting up our project, we can look through the auto-generated `sdkconfig` to find that only `CONFIG_LOG_DEFAULT_LEVEL` is set to `3` (`ESP_LOG_INFO`), meaning that `INFO` is the default level.
+After setting up our project, we can look through the auto-generated `sdkconfig` to find that `CONFIG_LOG_DEFAULT_LEVEL` is set to `3` (`ESP_LOG_INFO`), meaning that `INFO` is the default level.
 
 As for `LOG2`, we would expect that `DEBUG` and above would be logged due to us setting the level.
 
