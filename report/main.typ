@@ -45,7 +45,7 @@ We simply connected the esp32 via usb and flashed the program to it, observing i
 
 == Step 1: Understand Default Logging Levels
 
-When running the program initially, we'd expect `LOG1` to output for the default level and above. Reading the logging documentation @logging-docs, we can see that this level depends on the `CONFIG_LOG_DEFAULT_LEVEL` variable, with the following values.
+When running the program initially, we'd expect `LOG1` to output for the default level and above. Reading the logging documentation @logging-docs, we can see that this level depends on the `CONFIG_LOG_DEFAULT_LEVEL` variable, with the following values:
 
 - `ESP_LOG_NONE    (0)`: No output
 - `ESP_LOG_ERROR   (1)`: Error
