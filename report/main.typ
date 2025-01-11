@@ -115,7 +115,7 @@ For the next steps, we'll change the compile-time default logging back to `Info`
 
 == Step 2: Modify Global Logging Level
 
-We'll not modify the global logging level and see how that affects our program. To see changes, we'll set the global level to `ESP_LOG_ERROR`, `ESP_LOG_WARN` and `ESP_LOG_INFO`.
+We'll now modify the global logging level and see how that affects our program. To see changes, we'll set the global level to `ESP_LOG_ERROR`, `ESP_LOG_WARN` and `ESP_LOG_INFO`.
 
 Running the project with the `step2` function yields the following outputs for the respective error levels mentioned above:
 
