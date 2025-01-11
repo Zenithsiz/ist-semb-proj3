@@ -1,0 +1,8 @@
+---
+logging-docs:
+  type: Web
+  title: ESP32 Logging Documentation
+  author: Espressif Systems
+  url:
+    value: https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/log.html
+    date: 2025-01-11
