@@ -1,4 +1,4 @@
-#let title = [MicroProject 2: #linebreak() Implementation of Logs in ESP32]
+#let title = [MicroProject 3: #linebreak() Implementation of Logs in ESP32]
 #let course = [Embedded Systems]
 
 #let authors = ([Filipe Rodrigues - 96735],)

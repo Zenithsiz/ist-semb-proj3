@@ -211,6 +211,4 @@ This way, we could inspect the logs regularly and ensure that all systems are st
 
 We could also setup some system to ensure that a warning or error from this system is immediately relayed to us, so we can act on system/component failure quickly.
 
-==
-
 #bibliography("bibliography.yaml", style: "ieee", full: true)
